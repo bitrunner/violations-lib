@@ -1,0 +1,75 @@
+{
+
+  "version": "2.0.0",
+
+  "runs": [
+
+    {
+
+      "results": [
+
+        {
+
+          "ruleId": "TNT0001",
+
+          "message": {
+
+            "text": "Tainted data was used. The data came from [here](3)."
+
+          },
+
+          "locations": [
+
+            {
+
+              "physicalLocation": {
+
+                "uri": "file:///C:/code/main.c",
+
+                "region": {
+
+                  "startLine": 15,
+
+                  "startColumn": 9
+
+                }
+
+              }
+
+            }
+
+          ],
+
+          "relatedLocations": [
+
+            {
+
+              "physicalLocation": {
+
+                "id": 3,
+
+                "uri": "file:///C:/code/input.c",
+
+                "region": {
+
+                  "startLine": 15,
+
+                  "startColumn": 9
+
+                }
+
+              }
+
+            }
+
+          ]
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
